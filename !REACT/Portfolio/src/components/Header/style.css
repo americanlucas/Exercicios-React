@@ -1,0 +1,29 @@
+header {
+    background-color: rgb(158, 139, 113);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+
+
+.titulo h1{
+    margin: 0px 0px;
+}
+
+.elementos {
+    width: 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.elementos a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+}
