@@ -1,11 +1,10 @@
-import Header from "../../components/Header"
+import Box from "../../components/Box"
 
 export default function LandingPage() {
     return(
-<>
-<Header/>
-
-</>
+        <>
+        <Box/>
+        </>
     )
 
 }
