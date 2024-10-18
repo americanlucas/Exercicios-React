@@ -15,7 +15,7 @@ export default function Header (){
                 </div>
                 
                 <div className="cabecalho-links">
-                    <Link to="/">
+                    <Link to="/Produtos">
                         <h2>Produtos.</h2>
                     </Link>
 
@@ -23,7 +23,7 @@ export default function Header (){
                         <h2>Sobre.</h2>
                     </Link>
 
-                    <Link to="/">
+                    <Link to="/Login">
                         <h2>Login.</h2>
                     </Link>
                     

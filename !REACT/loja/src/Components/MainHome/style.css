@@ -1,0 +1,37 @@
+#root {
+    overflow-x: hidden;
+}
+  
+.section-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    margin: 150px 0px;
+}
+
+.main-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+
+.main-butao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 160px 0px;
+}
+
+.main-butao button {
+    border-style: none;
+    padding: 24px 36px;
+    background-color: #bdbdbd;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}

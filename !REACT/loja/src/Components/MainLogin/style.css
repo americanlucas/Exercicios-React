@@ -1,0 +1,41 @@
+.section-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-login {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.input-login input {
+    padding: 8px 72px 8px 16px;
+    margin: 6px 0px;
+    border-style: none;
+    background-color: rgb(209, 209, 209);
+}
+
+.input-login input::placeholder {
+    color: black;
+}
+
+.butao-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16px;
+    
+}
+
+.butao-login button {
+    border-style: none;
+    padding: 8px 24px;
+    background-color: #bdbdbd;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
