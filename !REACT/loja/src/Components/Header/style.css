@@ -1,0 +1,31 @@
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #E1C0C0;
+    padding: 24px 4px;
+}
+
+header h1 {
+    margin: 12px 24px;
+    
+}
+
+header a {
+   text-decoration: none; 
+   color: black;
+}
+
+.cabecalho-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 12px 24px;
+}
+
+.cabecalho-links a {
+    margin: 0px 32px;
+    text-decoration: none;
+    color: black;
+}
