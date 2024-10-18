@@ -15,9 +15,10 @@
 }
 
 button {
-    padding: 30px 40px;
+    padding: 5px 48px;
     border-radius: 20px;
     box-shadow:0 2px 5px gray;
+    cursor: pointer;
 }
 
 button:hover {

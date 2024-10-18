@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: center;
     border: solid 2px black;
+    padding: 12px;
     height: 150px;
     width: 200px;
     border-radius: 20px;
@@ -13,6 +14,7 @@
 
 input {
     margin: 5px;
+    padding: 3px;
 }
 
 h3 {
