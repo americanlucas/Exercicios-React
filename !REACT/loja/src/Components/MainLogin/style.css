@@ -5,21 +5,35 @@
     justify-content: center;
 }
 
+.titulo-login {
+    margin: 96px;
+    font-size: 24px;
+}
+
+.container-box-login {
+    background-color: rgb(185, 132, 101);
+    border-radius: 8px;
+    padding: 12px 12px 48px 12px;
+}
+
 .input-login {
     display: flex;
     flex-direction: column;
-    
+    margin: 32px;
 }
 
 .input-login input {
-    padding: 8px 72px 8px 16px;
-    margin: 6px 0px;
+    padding: 10px 72px 10px 16px;
+    margin: 10px 0px;
     border-style: none;
-    background-color: rgb(209, 209, 209);
+    background-color: #D6C0B3;
+    border-radius: 8px;
 }
 
 .input-login input::placeholder {
     color: black;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .butao-login {
@@ -33,7 +47,7 @@
 .butao-login button {
     border-style: none;
     padding: 8px 24px;
-    background-color: #bdbdbd;
+    background-color: #D6C0B3;
     border-radius: 8px;
     font-size: 20px;
     font-weight: 500;

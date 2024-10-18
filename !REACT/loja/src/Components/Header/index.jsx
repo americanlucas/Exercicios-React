@@ -19,7 +19,7 @@ export default function Header (){
                         <h2>Produtos.</h2>
                     </Link>
 
-                    <Link to="/">
+                    <Link to="/Sobre">
                         <h2>Sobre.</h2>
                     </Link>
 

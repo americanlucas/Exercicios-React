@@ -1,0 +1,78 @@
+.titulo-sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 64px;
+    font-size: 32px;
+}
+
+.titulo-sobre a {
+    text-decoration: none;
+    color: black;
+}
+
+.titulo-sobre a:hover {
+    text-decoration: underline;
+    transition: 0.6;
+}
+
+.block-topicos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.block-topicos h2 {
+    font-size: 32px;
+    margin-top: 32px;
+}
+
+.block-topicos p {
+    margin: 8px;
+    padding-left: 16px;
+    font-size: 24px;
+}
+
+.block1 {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 0px 96px 0px 0px;
+    margin-left: 16px;
+}
+
+.block2 {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 0px 80px 0px 0px;
+}
+
+.topico4 a {
+    text-decoration: none;
+    color: black;
+}
+
+.topico4 a:hover {
+    text-decoration: underline;
+    transition: 0.6;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+}
+
+.contato h2 {
+    font-size: 32px;
+    margin: 32px 0px 12px 16px;
+}
+
+.contato-img {
+    margin: 12px 0px 12px 32px;
+}
+
+.contato-img img {
+    padding-top: 16px;
+    padding-left: 24px;
+}

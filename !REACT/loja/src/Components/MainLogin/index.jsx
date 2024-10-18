@@ -6,7 +6,7 @@ export default function MainLogin () {
         <>
             <section className="section-login">
                 <div className="titulo-login">
-                    <h2>É necessário estar logado.</h2>
+                    <h2>Faça seu Login.</h2>
                 </div>
 
                 <div className="container-box-login">

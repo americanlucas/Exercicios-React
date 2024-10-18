@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Views/Home";
 import Produtos from "./Views/Produtos"
 import Login from "./Views/Login"
+import Sobre from "./Views/Sobre"
 
 
 
@@ -20,6 +21,9 @@ export default function App() {
 
         <Route path="/Login"
         Component={Login}/>
+
+        <Route path="/Sobre" 
+        Component={Sobre}/>
       </Routes>
     </Router>
 
