@@ -1,0 +1,13 @@
+.section-banner {
+    display: flex;
+    background-color: #6278F7;
+    height: 278px;
+    justify-content: center;
+}
+
+.section-banner img {
+    display: flex;
+    text-align: center;
+    width: 720px;
+    height: 278px;
+}
