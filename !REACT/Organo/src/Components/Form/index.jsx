@@ -14,9 +14,7 @@ const Formulario = (props) => {
             cargo, 
             imagem,
             time
-        })
-
-        
+        }) 
     }
 
     const [nome, setNome] = useState('')

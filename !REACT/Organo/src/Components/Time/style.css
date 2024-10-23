@@ -1,6 +1,7 @@
 .section-time {
     text-align: center;
     padding: 32px;
+    background-image: url(../../Assets/fundo.png);
 }
 
 .section-time h3 {

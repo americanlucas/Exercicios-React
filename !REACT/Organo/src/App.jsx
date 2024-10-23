@@ -52,6 +52,10 @@ function App() {
     
   ]
 
+  function deletarColaborador () {
+    console.log('Deletando Colaborador')
+  }
+
   return (
     <>
       <Banner/>
@@ -66,6 +70,7 @@ function App() {
         corPrimaria={time.corPrimaria} 
         corSecundaria={time.corSecundaria}
         colaboradores={colaboradores.filter(colaborador => colaborador.time == time.nome)}
+        aoDeletar={deletarColaborador}
       />)}
 
     </>
